@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,12 @@
     <link rel="stylesheet" href="contatos.css">
 
 </head>
+
 <body>
 
-    <header><h1>Contatos</h1></header>
+    <header>
+        <h1>Contatos</h1>
+    </header>
 
 
     <nav>
@@ -19,26 +23,45 @@
         <a href="sobre.html">Sobre</a>
     </nav>
     <form>
-<label for="name">Nome: </label>
-<input type="text" id="name" name="name" required>
+        <label for="name">Nome: </label>
+        <input type="text" id="name" name="name" required>
 
-<label for="email">Email:</label>
-<input type="email" name="email" id="email" required>
-    
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required>
 
-<label for="Mensagem">Mensagem</label>
-<textarea name="Mensagem" id="Mensagem" rows="4"></textarea required> 
-<label for="senha">Senha</label>
+
+        <label for="Mensagem">Mensagem</label>
+        <textarea name="Mensagem" id="Mensagem" rows="4"></textarea required> 
+
+    <label for="senha">Senha</label>
 <input type="password" id="senha" name="senha">
+
 <label for="numero">numero</label>    
 <input type="number" id="senha" name="senha" pattern="[0 9]*">
+
 <label for="faixa_valor">Faixa de Valor</label>
 <input type="range" id="Faixa de Valor">
 
+<label for="data">Escolha Uma Data</label>
+<input type="date" name="data" id="data">
 
+<label for="Caixa_Selecao">Caixa de Seleçao</label>
+<input type="checkbox" name="Caixa_Selecao" id="Caixa_Selecao">
+
+<label for="Selecao">Seleçao</label>
+<input type="radio" name="Selecao" id="Selecao">
+
+<label for="arquivo">Selecione um Arquivo</label>
+<input type="file" name="arquivo" id="arquivo">
+
+<label for="cor">Selecione uma Cor</label>
+<input type="color" name="cor" id="cor">
 
 
 <button type="submit">Enviar</button>
+
+
+
 </form>
 
 

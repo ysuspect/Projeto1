@@ -8,7 +8,11 @@ body {
 }
 
 
+header{
+background-color: rgb(94, 13, 13)  ;
+padding: 5px;
 
+}
 
 
 
@@ -28,10 +32,19 @@ form{
     padding: 10px;
     
 }
+nav{
+background-color: rgb(197, 135, 18);
+padding: 10px;
+
+}
+
+
+
+
 nav a {
 
 
-    color: yellow;
+    color: rgb(204, 186, 21);
     text-decoration: none;
     margin: 0 15px;
 }
