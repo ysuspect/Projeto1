@@ -9,6 +9,13 @@
     margin-top: 20px;
 }
 
+header{
+    background-color: rgb(94, 13, 13)  ;
+    padding: 5px;
+    text-align: center;
+    
+    }
+
 .container figure {
     position: relative;
     overflow: hidden;
@@ -22,6 +29,20 @@
     height: auto;
     transition: transform 0.3s ease;
 }
+
+nav{
+    background-color: rgb(197, 135, 18);
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    
+    }
+ 
+    nav a{
+margin: 0 15px;
+
+    }
+
 
 .container figure::after {
     content: '';

@@ -9,8 +9,8 @@ body {
 }
 
 header {
-    background-color: grey;
-    padding: 20px;
+    background-color: rgb(94, 13, 13)  ;
+    padding: 5px;
     
 
 }
@@ -18,7 +18,7 @@ header {
 nav {
     display: flex;
     justify-content: center;
-    background-color: gainsboro;
+    background-color: rgb(197, 135, 18);
     padding: 20px;
     
 }
